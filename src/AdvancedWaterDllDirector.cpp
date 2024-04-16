@@ -191,7 +191,7 @@ public:
 
 		Logger& logger = Logger::GetInstance();
 		logger.Init(logFilePath, LogLevel::Error);
-		logger.WriteLogFileHeader("SC4AdvancedWater v" PLUGIN_VERSION_STR);
+		logger.WriteLogFileHeader("AdvancedWaterManagement v" PLUGIN_VERSION_STR);
 	}
 
 	uint32_t GetDirectorID() const
