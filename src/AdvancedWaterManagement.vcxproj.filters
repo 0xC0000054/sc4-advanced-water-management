@@ -16,9 +16,6 @@
     <Filter Include="Source Files\GZCOM">
       <UniqueIdentifier>{634b96ad-93c3-4d7e-81f2-492a2d0f96d0}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Source Files\EASTL">
-      <UniqueIdentifier>{e6636fd3-168e-425b-a128-09d78c7839a3}</UniqueIdentifier>
-    </Filter>
     <Filter Include="Header Files\GZCOM">
       <UniqueIdentifier>{55969e5e-2491-4049-8687-619fc7c065a7}</UniqueIdentifier>
     </Filter>
@@ -33,67 +30,34 @@
     <ClCompile Include="Logger.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\vendor\EASTL\source\assert.cpp">
-      <Filter>Source Files\EASTL</Filter>
-    </ClCompile>
-    <ClCompile Include="..\vendor\EASTL\source\atomic.cpp">
-      <Filter>Source Files\EASTL</Filter>
-    </ClCompile>
-    <ClCompile Include="..\vendor\EASTL\source\fixed_pool.cpp">
-      <Filter>Source Files\EASTL</Filter>
-    </ClCompile>
-    <ClCompile Include="..\vendor\EASTL\source\hashtable.cpp">
-      <Filter>Source Files\EASTL</Filter>
-    </ClCompile>
-    <ClCompile Include="..\vendor\EASTL\source\intrusive_list.cpp">
-      <Filter>Source Files\EASTL</Filter>
-    </ClCompile>
-    <ClCompile Include="..\vendor\EASTL\source\numeric_limits.cpp">
-      <Filter>Source Files\EASTL</Filter>
-    </ClCompile>
-    <ClCompile Include="..\vendor\EASTL\source\red_black_tree.cpp">
-      <Filter>Source Files\EASTL</Filter>
-    </ClCompile>
-    <ClCompile Include="..\vendor\EASTL\source\string.cpp">
-      <Filter>Source Files\EASTL</Filter>
-    </ClCompile>
-    <ClCompile Include="..\vendor\EASTL\source\thread_support.cpp">
-      <Filter>Source Files\EASTL</Filter>
-    </ClCompile>
-    <ClCompile Include="..\vendor\gzcom-dll\src\cRZBaseString.cpp">
+    <ClCompile Include="..\vendor\gzcom-dll\gzcom-dll\src\cRZBaseString.cpp">
       <Filter>Source Files\GZCOM</Filter>
     </ClCompile>
-    <ClCompile Include="..\vendor\gzcom-dll\src\cRZBaseVariant.cpp">
+    <ClCompile Include="..\vendor\gzcom-dll\gzcom-dll\src\cRZBaseVariant.cpp">
       <Filter>Source Files\GZCOM</Filter>
     </ClCompile>
-    <ClCompile Include="..\vendor\gzcom-dll\src\cRZCOMDllDirector.cpp">
+    <ClCompile Include="..\vendor\gzcom-dll\gzcom-dll\src\cRZCOMDllDirector.cpp">
       <Filter>Source Files\GZCOM</Filter>
     </ClCompile>
-    <ClCompile Include="..\vendor\gzcom-dll\src\cRZMessage2.cpp">
+    <ClCompile Include="..\vendor\gzcom-dll\gzcom-dll\src\cRZMessage2.cpp">
       <Filter>Source Files\GZCOM</Filter>
     </ClCompile>
-    <ClCompile Include="..\vendor\gzcom-dll\src\cRZMessage2Standard.cpp">
+    <ClCompile Include="..\vendor\gzcom-dll\gzcom-dll\src\cRZMessage2Standard.cpp">
       <Filter>Source Files\GZCOM</Filter>
     </ClCompile>
-    <ClCompile Include="..\vendor\gzcom-dll\src\cS3DVector3.cpp">
+    <ClCompile Include="..\vendor\gzcom-dll\gzcom-dll\src\cS3DVector3.cpp">
       <Filter>Source Files\GZCOM</Filter>
     </ClCompile>
-    <ClCompile Include="..\vendor\gzcom-dll\src\cSCBaseProperty.cpp">
+    <ClCompile Include="..\vendor\gzcom-dll\gzcom-dll\src\cSCBaseProperty.cpp">
       <Filter>Source Files\GZCOM</Filter>
     </ClCompile>
-    <ClCompile Include="..\vendor\gzcom-dll\src\EASTLAllocatorSC4.cpp">
-      <Filter>Source Files\GZCOM</Filter>
-    </ClCompile>
-    <ClCompile Include="..\vendor\gzcom-dll\src\StringResourceManager.cpp">
+    <ClCompile Include="..\vendor\gzcom-dll\gzcom-dll\src\StringResourceManager.cpp">
       <Filter>Source Files\GZCOM</Filter>
     </ClCompile>
     <ClCompile Include="WaterBuildingOccupantFilter.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\vendor\gzcom-dll\src\SC4UI.cpp">
-      <Filter>Source Files\GZCOM</Filter>
-    </ClCompile>
-    <ClCompile Include="..\vendor\gzcom-dll\src\RZBaseWinProc.cpp">
+    <ClCompile Include="..\vendor\gzcom-dll\gzcom-dll\src\SC4UI.cpp">
       <Filter>Source Files\GZCOM</Filter>
     </ClCompile>
     <ClCompile Include="SC4VersionDetection.cpp">
@@ -108,7 +72,7 @@
     <ClCompile Include="WaterBuildingPropertyUtil.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\vendor\gzcom-dll\src\SCPropertyUtil.cpp">
+    <ClCompile Include="..\vendor\gzcom-dll\gzcom-dll\src\SCPropertyUtil.cpp">
       <Filter>Source Files\GZCOM</Filter>
     </ClCompile>
   </ItemGroup>
@@ -119,67 +83,64 @@
     <ClInclude Include="version.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\vendor\gzcom-dll\include\StringResourceKey.h">
+    <ClInclude Include="..\vendor\gzcom-dll\gzcom-dll\include\StringResourceKey.h">
       <Filter>Header Files\GZCOM</Filter>
     </ClInclude>
-    <ClInclude Include="..\vendor\gzcom-dll\include\StringResourceManager.h">
+    <ClInclude Include="..\vendor\gzcom-dll\gzcom-dll\include\StringResourceManager.h">
       <Filter>Header Files\GZCOM</Filter>
     </ClInclude>
-    <ClInclude Include="..\vendor\gzcom-dll\include\cIGZCheatCodeManager.h">
+    <ClInclude Include="..\vendor\gzcom-dll\gzcom-dll\include\cIGZCheatCodeManager.h">
       <Filter>Header Files\GZCOM</Filter>
     </ClInclude>
-    <ClInclude Include="..\vendor\gzcom-dll\include\cISC4City.h">
+    <ClInclude Include="..\vendor\gzcom-dll\gzcom-dll\include\cISC4City.h">
       <Filter>Header Files\GZCOM</Filter>
     </ClInclude>
-    <ClInclude Include="..\vendor\gzcom-dll\include\cISC4Occupant.h">
+    <ClInclude Include="..\vendor\gzcom-dll\gzcom-dll\include\cISC4Occupant.h">
       <Filter>Header Files\GZCOM</Filter>
     </ClInclude>
-    <ClInclude Include="..\vendor\gzcom-dll\include\cISC4Region.h">
+    <ClInclude Include="..\vendor\gzcom-dll\gzcom-dll\include\cISC4Region.h">
       <Filter>Header Files\GZCOM</Filter>
     </ClInclude>
-    <ClInclude Include="..\vendor\gzcom-dll\include\cISC4RegionalCity.h">
+    <ClInclude Include="..\vendor\gzcom-dll\gzcom-dll\include\cISC4RegionalCity.h">
       <Filter>Header Files\GZCOM</Filter>
     </ClInclude>
-    <ClInclude Include="..\vendor\gzcom-dll\include\cISC4ResidentialSimulator.h">
+    <ClInclude Include="..\vendor\gzcom-dll\gzcom-dll\include\cISC4ResidentialSimulator.h">
       <Filter>Header Files\GZCOM</Filter>
     </ClInclude>
-    <ClInclude Include="..\vendor\gzcom-dll\include\cISC4Simulator.h">
+    <ClInclude Include="..\vendor\gzcom-dll\gzcom-dll\include\cISC4Simulator.h">
       <Filter>Header Files\GZCOM</Filter>
     </ClInclude>
-    <ClInclude Include="..\vendor\gzcom-dll\include\cISC4TractDeveloper.h">
+    <ClInclude Include="..\vendor\gzcom-dll\gzcom-dll\include\cISC4TractDeveloper.h">
       <Filter>Header Files\GZCOM</Filter>
     </ClInclude>
-    <ClInclude Include="..\vendor\gzcom-dll\include\cISC4PlumbingSimulator.h">
+    <ClInclude Include="..\vendor\gzcom-dll\gzcom-dll\include\cISC4PlumbingSimulator.h">
       <Filter>Header Files\GZCOM</Filter>
     </ClInclude>
-    <ClInclude Include="..\vendor\gzcom-dll\include\cIGZVariant.h">
+    <ClInclude Include="..\vendor\gzcom-dll\gzcom-dll\include\cIGZVariant.h">
       <Filter>Header Files\GZCOM</Filter>
     </ClInclude>
     <ClInclude Include="WaterBuildingOccupantFilter.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\vendor\gzcom-dll\include\cIGZWinText.h">
+    <ClInclude Include="..\vendor\gzcom-dll\gzcom-dll\include\cIGZWinText.h">
       <Filter>Header Files\GZCOM</Filter>
     </ClInclude>
-    <ClInclude Include="..\vendor\gzcom-dll\include\cIGZWin.h">
+    <ClInclude Include="..\vendor\gzcom-dll\gzcom-dll\include\cIGZWin.h">
       <Filter>Header Files\GZCOM</Filter>
     </ClInclude>
-    <ClInclude Include="..\vendor\gzcom-dll\include\cIGZWinGen.h">
+    <ClInclude Include="..\vendor\gzcom-dll\gzcom-dll\include\cIGZWinGen.h">
       <Filter>Header Files\GZCOM</Filter>
     </ClInclude>
-    <ClInclude Include="..\vendor\gzcom-dll\include\SC4UI.h">
+    <ClInclude Include="..\vendor\gzcom-dll\gzcom-dll\include\SC4UI.h">
       <Filter>Header Files\GZCOM</Filter>
     </ClInclude>
-    <ClInclude Include="..\vendor\gzcom-dll\include\cIGZUIScriptService.h">
+    <ClInclude Include="..\vendor\gzcom-dll\gzcom-dll\include\cIGZUIScriptService.h">
       <Filter>Header Files\GZCOM</Filter>
     </ClInclude>
-    <ClInclude Include="..\vendor\gzcom-dll\include\cIGZWinProc.h">
+    <ClInclude Include="..\vendor\gzcom-dll\gzcom-dll\include\cIGZWinProc.h">
       <Filter>Header Files\GZCOM</Filter>
     </ClInclude>
-    <ClInclude Include="..\vendor\gzcom-dll\include\RZBaseWinProc.h">
-      <Filter>Header Files\GZCOM</Filter>
-    </ClInclude>
-    <ClInclude Include="..\vendor\gzcom-dll\include\cIGZWinMgr.h">
+    <ClInclude Include="..\vendor\gzcom-dll\gzcom-dll\include\cIGZWinMgr.h">
       <Filter>Header Files\GZCOM</Filter>
     </ClInclude>
     <ClInclude Include="SC4VersionDetection.h">
@@ -197,7 +158,7 @@
     <ClInclude Include="WaterBuildingPropertyUtil.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\vendor\gzcom-dll\include\SCPropertyUtil.h">
+    <ClInclude Include="..\vendor\gzcom-dll\gzcom-dll\include\SCPropertyUtil.h">
       <Filter>Header Files\GZCOM</Filter>
     </ClInclude>
     <ClInclude Include="QueryUIHooks\cIBuildingQueryCustomToolTipHookTarget.h">

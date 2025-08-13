@@ -62,9 +62,6 @@
 #include "wil/result.h"
 #include "wil/win32_helpers.h"
 
-#include "EASTLConfigSC4.h"
-#include "EASTL\vector.h"
-
 static constexpr uint32_t kMessageCheatIssued = 0x230E27AC;
 static constexpr uint32_t kSC4MessageSimNewMonth = 0x66956816;
 static constexpr uint32_t kSC4MessagePostCityInit = 0x26D31EC1;
@@ -74,8 +71,6 @@ static constexpr uint32_t kAdvancedWaterModDirectorID = 0xCFE4D72D;
 
 static const uint32_t kPumpHasNoFreshWaterSourceEventID = 0xCB94C1DD;
 static const uint32_t kOccupantGroup_Building_Water = 0x1401;
-
-static constexpr uint32_t GZIID_cISC4BuildingOccupant = 0x87dda3a9;
 
 static constexpr uint32_t ScanPumpsCheatID = 0x8E9F3621;
 
@@ -168,7 +163,7 @@ namespace
 
 		cRZAutoRefCount<cIGZString> localizedString;
 
-		if (StringResourceManager::GetLocalizedString(key, localizedString.AsPPObj()))
+		if (StringResourceManager::GetLocalizedString(key, localizedString))
 		{
 			destination.Copy(*localizedString);
 			result = true;
