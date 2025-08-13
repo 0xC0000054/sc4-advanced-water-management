@@ -34,10 +34,8 @@
     <ClInclude Include="..\vendor\gzcom-dll\gzcom-dll\include\cIGZUIScriptService.h" />
     <ClInclude Include="..\vendor\gzcom-dll\gzcom-dll\include\cIGZVariant.h" />
     <ClInclude Include="..\vendor\gzcom-dll\gzcom-dll\include\cIGZWin.h" />
-    <ClInclude Include="..\vendor\gzcom-dll\gzcom-dll\include\cIGZWinGen.h" />
     <ClInclude Include="..\vendor\gzcom-dll\gzcom-dll\include\cIGZWinMgr.h" />
     <ClInclude Include="..\vendor\gzcom-dll\gzcom-dll\include\cIGZWinProc.h" />
-    <ClInclude Include="..\vendor\gzcom-dll\gzcom-dll\include\cIGZWinText.h" />
     <ClInclude Include="..\vendor\gzcom-dll\gzcom-dll\include\cISC4City.h" />
     <ClInclude Include="..\vendor\gzcom-dll\gzcom-dll\include\cISC4Occupant.h" />
     <ClInclude Include="..\vendor\gzcom-dll\gzcom-dll\include\cISC4PlumbingSimulator.h" />
